@@ -1,0 +1,52 @@
+/* Reset and body styles are fine */
+
+header {
+  background-color: #161752;
+  padding: 10px 20px;
+  color: white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+/* Make nav container flex */
+nav {
+  display: flex;
+  align-items: center;
+}
+
+/* Nav links container */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Individual nav buttons */
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  padding: 8px 14px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+/* Hover effect */
+.nav-links li a:hover {
+  background-color: #180e6b;
+}
